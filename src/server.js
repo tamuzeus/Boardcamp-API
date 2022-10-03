@@ -12,7 +12,6 @@ app.get('/status', async (req, res) => {
   res.send('Ok')
 })
 
-
 app.listen(4000, () => {
   console.log('Server port 4000.')
 })
